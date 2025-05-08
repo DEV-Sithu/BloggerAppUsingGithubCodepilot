@@ -5,8 +5,8 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitInstance {
 
-    private const val BASE_URL = "https://www.googleapis.com/blogger/v3/blogs/1316783436842027729/"
-    private const val API_KEY = "AIzaSyArUR5u-Q-W5-zzskzBiGnw51s6nVJlZQc"
+    private const val BASE_URL = "https://www.googleapis.com/blogger/v3/blogs/yourblogID/"
+    private const val API_KEY = "your blog api key here"
 
     val api: BlogApi by lazy {
         Retrofit.Builder()
