@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidBlog</string>
+    <string name="blog_id">1316783436842027729</string>
+    <string name="blog_post_image">Blog Post Image</string>
+</resources>
